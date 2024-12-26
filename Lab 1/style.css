@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    margin: 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shead{
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.logo img{
+    width: 200px;
+    margin: auto;
+}
+
+.content{
+    margin: 30px;
+    width: 50vw;
+    margin: auto;
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mhead{
+    margin: 10px 0;
+}
+
+.mhead p{
+    font-weight: bold;
+    font-size: large;
+}
+
+.dateVenue{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dateVenue p{
+    font-weight: bold;
+}
+
+.meta{
+    margin-bottom: 30px;
+}
+
+form div{
+    margin: 10px 0;
+}
+
+form div label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.textBox{
+    width: 200px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+.textBox:focus{
+    outline: none;
+}
+
+.addressBox{
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000;
+}
+
+.addressBox:focus{
+    outline: none;
+}
+
+.radioLabel{
+    margin-left: 20px;
+}
+
+.submitButton{
+    width: 400px;
+    background: #9b2927;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.submitButton:hover{
+    background: #7b1e1b;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>National Conference | Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./logo.png" />
+        </div>
+        <div class="shead">
+            <p>Registration Form</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="meta">
+            <div class="mhead">
+                <p>National Conference on Artificial Intelligence</p>
+            </div>
+            <div class="dateVenue">
+                <p>Date: February 20, 2025</p>
+                <p>Venue: MITACSC, Alandi</p>
+            </div>
+        </div>
+        <form onsubmit="submitForm()" name="regForm" action="#" method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="textBox">
+            </div>
+            <div>
+                <label for="mobile">Mobile</label>
+                <input type="tel" name="mobile" id="mobile" class="textBox">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="textBox">
+            </div>  
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" class="textBox">
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" class="textBox">
+            </div>
+            <div>
+                <label for="state">State</label>
+                <input type="text" name="state" id="state" class="textBox">
+            </div>
+            <div>
+                <label for="profession">Profession</label>
+                <input type="text" name="profession" id="profession" class="textBox">
+            </div>
+            <div>
+                <label for="orgInst">Organization/Institute</label>
+                <input type="text" name="orgInst" id="orgInst" class="textBox">
+            </div>
+            <div>
+                <label for="accomodation">Accomodation Required</label>
+                <label for="accomodation" class="radioLabel">Yes</label>
+                <input type="radio" name="accomodation" id="accomodation" value="yes">
+                <label for="accomodation" class="radioLabel">No</label>
+                <input type="radio" name="accomodation" id="accomodation" value="no">
+            </div>
+            <div>
+                <label for="payMethod">Payment Method</label>
+                <select name="payMethod" id="payMethod">
+                    <option value="choose">Choose...</option>
+                    <option value="cash">Cash</option>
+                    <option value="card">Credit Card | Debit Card</option>
+                    <option value="upi">UPI</option>
+                </select>
+            </div>
+            <div>
+                <label for="idCard">ID Card</label>
+                <input type="file" name="idCard" id="idCard">
+            </div>
+            <center>
+                <button class="submitButton" type="submit">Submit</button>
+            </center>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
