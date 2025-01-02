@@ -6,6 +6,7 @@
 <body>
     <?php
         $num = 153;
+        $temp=$num;
         echo "Number = " . $num . "<br>";
         if($num > 0){
             $sum = 0;
@@ -14,7 +15,7 @@
                 $sum += $rem * $rem * $rem;
                 $num = intval($num / 10);
             }
-            if($sum == $num){
+            if($sum == $temp){
                 echo "armstrong number<br>";
             } else {
                 echo "not an armstrong number<br>";
